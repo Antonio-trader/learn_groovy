@@ -1,6 +1,6 @@
 pipeline {
     agent { 
-        'master' { 
+        label 'master' { 
             image 'python:3.5.1'
             } 
         }
